@@ -1,0 +1,26 @@
+{
+  "name": "pixijs-tetris",
+  "version": "1.0.0",
+  "description": "Simple Tetris game written with PixiJS in the effort of exploring the library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "webpack --mode production --config webpack.config.prod.js",
+    "build": "webpack --mode development --config webpack.config.dev.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "pixi.js": "^7.1.2",
+    "source-map-loader": "^4.0.1",
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "file-loader": "^6.2.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
